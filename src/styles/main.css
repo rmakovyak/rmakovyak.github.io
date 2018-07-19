@@ -18,16 +18,32 @@ body {
   margin: 0;
   color: #fff;
   font-family: Roboto;
-  background-image: url('https://images.unsplash.com/photo-1521117184087-0bf82f2385ab?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8262488e455d8f074262cda8dee11925&auto=format&fit=crop&w=1567&q=80');
+  background-image: url('https://images.unsplash.com/photo-1486028502991-23bca1717e62?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=00a617c7f983a2785d877e4772d9d73c&auto=format&fit=crop&w=2100&q=80');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 10px 0;
+}
+
+ul.list-inline li {
+  display: inline;
+  padding: 0 20px 0 0;
 }
 
 .container {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background: rgb(0, 0, 0, 0.3);
 }
 
 .header {
@@ -38,10 +54,17 @@ body {
 .header .logo {
   font-size: 18px;
   flex: 1;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .header .logo {
+    display: block;
+  }
 }
 
 .header .nav a {
-  margin: 0 20px;
+  margin: 0 20px 0 0;
   font-size: 18px;
   text-decoration: none;
   color: inherit;
@@ -67,4 +90,22 @@ body {
 
 .content__subheading {
   color: gainsboro;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-link:visited {
+  color: inherit;
+}
+
+.contact-link:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.contact-link--github {
+  position: relative;
+  top: 3px;
 }
