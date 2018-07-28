@@ -13,6 +13,7 @@
     "fontawesome": "^4.7.2",
     "gatsby": "^1.9.250",
     "gatsby-link": "^1.6.40",
+    "gatsby-plugin-google-analytics": "^1.0.31",
     "gh-pages": "^1.2.0",
     "react-fontawesome": "^1.6.1"
   }
