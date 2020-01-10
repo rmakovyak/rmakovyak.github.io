@@ -17,7 +17,7 @@
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */.layout{display:flex;flex-direction:column;height:100vh}@font-face{font-family:Uni Neu;src:url(/static/UniNeue-Light-0dfda699ffc3a54e4b5750b095545c6d.ttf) format("ttf");font-weight:400;font-style:normal}@font-face{font-family:Lato;src:url(/static/Lato-Light-2fe27d9d10cdfccb1baef28a45d5ba90.ttf) format("ttf");font-weight:300;font-style:normal}@font-face{font-family:Lato;src:url(/static/Lato-Regular-2d36b1a925432bae7f3c53a340868c6e.ttf) format("ttf");font-weight:400;font-style:normal}@font-face{font-family:Lato;src:url(/static/Lato-Bold-85d339d916479f729938d2911b85bf1f.ttf) format("ttf");font-weight:600;font-style:normal}
+ */.layout{display:flex;flex-direction:column;height:100vh}@font-face{font-family:Uni Neue;src:url(/static/UniNeue-Light-0dfda699ffc3a54e4b5750b095545c6d.ttf) format("woff2");font-weight:300;font-style:normal}@font-face{font-family:Lato;src:url(/static/Lato-Light-2fe27d9d10cdfccb1baef28a45d5ba90.ttf) format("woff2");font-weight:300;font-style:normal}@font-face{font-family:Lato;src:url(/static/Lato-Regular-2d36b1a925432bae7f3c53a340868c6e.ttf) format("woff2");font-weight:400;font-style:normal}@font-face{font-family:Lato;src:url(/static/Lato-Bold-85d339d916479f729938d2911b85bf1f.ttf) format("woff2");font-weight:600;font-style:normal}
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
